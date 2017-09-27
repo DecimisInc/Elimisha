@@ -25,4 +25,10 @@ function emp_customize_register($wp_customize) {
 }
 add_action( 'customize_register', 'emp_customize_register', 11 );
 
-?>
+
+// CUSTOM FUNCTIONALITIES
+
+	// ACF Options Page
+		if ( function_exists('acf_add_options_page') ) {
+			acf_add_options_page();
+		}
