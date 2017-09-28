@@ -6,7 +6,6 @@
         <serverdata>
           <mappings>
             <mapping deploy="/wp-content/themes/elimisha" local="$PROJECT_DIR$/elimisha" web="/" />
-            <mapping deploy="/wp-content/themes/Divi" local="$PROJECT_DIR$/Divi" web="/" />
           </mappings>
         </serverdata>
       </paths>
